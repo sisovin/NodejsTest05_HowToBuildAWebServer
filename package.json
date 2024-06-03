@@ -1,0 +1,26 @@
+{
+  "name": "modejstest05",
+  "version": "0.0.1",
+  "description": "NodejsTest05",
+  "main": "server.js",
+  "author": "Chieng Sisovin",
+  "devDependencies": {
+    "date-fns": "^3.6.0",
+    "eslint": "^8.21.0",
+    "nodemon": "^3.1.2",
+    "uuid": "^9.0.1"
+  },
+  "eslintConfig": {},
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
